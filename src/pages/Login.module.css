@@ -1,0 +1,45 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  margin-top: -50px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 300;
+}
+
+.iconPosition {
+  position: absolute;
+  right: 20px;
+  bottom: 17px;
+  height: 20px;
+  border-radius: 100%;
+  /* border: 1px solid white; */
+}
+
+.icon {
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+}

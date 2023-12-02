@@ -1,0 +1,27 @@
+.btn {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: #6741d9;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+}
+
+.btn:hover {
+  border: 1px solid #f0c3f1;
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  border: 1px solid #f0c3f1;
+  transform: translateY(0);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
